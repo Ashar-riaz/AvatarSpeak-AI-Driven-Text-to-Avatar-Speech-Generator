@@ -21,5 +21,7 @@ Gradio Interface:
 The project uses Gradio to provide a user-friendly web interface where users can enter text and receive a spoken response from the avatar.
 
 Dependencies
+
 You can install all dependencies using the following combined command:
+
 pip install accelerate aspose-words transformers --upgrade einops torch soundfile
