@@ -9,18 +9,17 @@ Features
 
 Main Functions:
 1. generate_response:
-    . Generates a response from the language model.
-    . Converts the response text to speech.
-    . Generates a lipsync video of the avatar speaking the response.
-3. text_to_speech:
-    . Converts text to speech using gTTS.
-4. avtar:
-    . Creates a lipsync video of an avatar based on the provided audio.
+   1. Generates a response from the language model.
+   2. Converts the response text to speech.
+   3. Generates a lipsync video of the avatar speaking the response.
+2. text_to_speech:
+    1. Converts text to speech using gTTS.
+3. avtar:
+    1. Creates a lipsync video of an avatar based on the provided audio.
 
 Gradio Interface:
 The project uses Gradio to provide a user-friendly web interface where users can enter text and receive a spoken response from the avatar.
 
 Dependencies
-You need to install the following dependencies:
 You can install all dependencies using the following combined command:
 pip install accelerate aspose-words transformers --upgrade einops torch soundfile
